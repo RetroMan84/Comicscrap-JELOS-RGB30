@@ -1,0 +1,12 @@
+# GIMP 'Ombre portée' settings
+
+(time 0)
+(x 3.8460000000000001)
+(y 3.8460000000000001)
+(radius 0)
+(grow-shape circle)
+(grow-radius 0)
+(color (color-rgba 0 0 0 1))
+(opacity 2)
+
+# end of 'Ombre portée' settings
