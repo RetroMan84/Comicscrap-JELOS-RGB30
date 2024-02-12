@@ -11,9 +11,9 @@ The game list view can be changed directly from the main menu under `UI Settings
 
 The three options are:
 
-Basic - Basic list
-Detailed - Includes image, genre, rating and description
-Video - Includes image, video, genre, rating and description
+*Basic - Basic list
+*Detailed - Includes image, genre, rating and description
+*Video - Includes image, video, genre, rating and description
 
 ## Custom Comics and Logos
 If you want to make your own comic and logo, there are resources in the assets folder. There is a comic template as well as a resources and a guide to creating the comic logos for the system view.
