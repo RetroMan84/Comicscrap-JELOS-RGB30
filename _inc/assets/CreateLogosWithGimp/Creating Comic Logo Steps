@@ -1,0 +1,13 @@
+- Drag Characters to form word
+
+- "Merge visible layers" to combine them
+	- left click on layer pane
+
+- Create White border
+	- Filters ---> Light and Shadow ---> Drop Shadow
+	- Manage Presets ----> Navigate to CreateLogosWithGimp/GIMP_presets/Drop_Shadow
+	- 1-LogoWhite will create border
+	- 2-LogoColor will add primary color to border
+
+- Add Another Drop Shadow
+	- Filters ----> Light and Shadow ----> Drop Shadow
