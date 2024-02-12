@@ -1,0 +1,207 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+
+<!-- System Carousel //-->
+
+	<view name="system">
+		
+		<image name="comic" extra="true">
+			<origin>.5 .5</origin>
+			<pos>.5 .5</pos>
+			<size>1 1</size>
+			<path>./_inc/systems/${system.theme}/comic.png</path>
+		</image>
+
+		<carousel name="systemcarousel">
+			<type>horizontal</type>
+			<origin>.5 .5</origin>
+			<pos>.5 .5</pos>
+         		<logoSize>.3 .205</logoSize>
+			<maxLogoCount>3</maxLogoCount>
+			<systemInfoDelay>500</systemInfoDelay>
+			<backgroundColor>eeeeeecc</backgroundColor>
+		</carousel>
+	
+		<text name="systemInfo">
+			<origin>.5 .5</origin>
+			<pos>.5 .6395</pos>
+			<size>.35 .051</size>
+			<fontPath>./_inc/assets/fonts/Shaka_Pow.ttf</fontPath>
+			<backgroundColor>eeeeeecc</backgroundColor>
+		</text>
+
+		<image name="logo">
+			<path>./_inc/systems/${system.theme}/system.png</path>
+		</image>
+		
+	</view>
+
+<!-- System Carousel END //-->
+
+<!-- Help Menu - All Views //-->
+
+	<view name="basic, detailed, video, system">
+		
+		<helpsystem name="help">
+			<origin>0 0</origin>
+			<pos>1 1</pos>
+		</helpsystem>
+	</view>
+
+
+<!-- Help Menu - All Views END //-->
+
+<!-- Battery Wifi and Clock - Screen View //-->
+
+   	<view name="screen">
+      		
+		<controllerActivity name="controllerActivity">
+         		<visible>false</visible>
+      		</controllerActivity>
+		
+		<text name="clock">
+			<origin>.5 .5</origin>
+			<pos>.29 1.44</pos>
+			<size>1 1</size>
+			<fontSize>.035</fontSize>
+			<textColor>7d7d7d</textColor>
+		</text>
+
+		<batteryIndicator name="batteryIndicator">
+			<origin>.5 .5</origin>
+			<pos>.924 .9385</pos>
+			<size>.05 .05</size>
+			<color>7d7d7d</color>
+       			<full>./_inc/assets/icons/battery-100-vertical.svg</full>
+       			<at75>./_inc/assets/icons/battery-75-vertical.svg</at75>
+        		<at50>./_inc/assets/icons/battery-50-vertical.svg</at50>
+       			<at25>./_inc/assets/icons/battery-25-vertical.svg</at25>
+       			<empty>./_inc/assets/icons/battery-0-vertical.svg</empty>
+     			<incharge>./_inc/assets/icons/battery-charging-vertical.svg</incharge>
+       			<networkIcon>./_inc/assets/icons/wifi-vertical.svg</networkIcon>
+      		</batteryIndicator>
+	</view>
+
+<!-- Battery Wifi and Clock - Screen View END //-->
+
+<!-- Gamelist view - Everything But Media - Detailed and Video Views //-->
+
+	<view name="detailed, video">
+
+		<image name="menu" extra="true">
+			<origin>.5 .5</origin>
+			<pos>.5 .5</pos>
+			<size>1 1</size>
+			<path>./_inc/assets/menu.png</path>
+		</image>
+
+		<textlist name="gamelist">
+			<origin>.5 .5</origin>
+			<pos>.255300 .5487</pos>
+			<size>.4595 .810</size>
+			<horizontalMargin>.006</horizontalMargin>
+			<fontPath>./_inc/assets/fonts/Shaka_Pow.ttf</fontPath>
+			<fontSize>.0325</fontSize>
+			<selectorColor>33333399</selectorColor>
+			<selectedColor>eeeeee</selectedColor>
+			<primaryColor>000000</primaryColor>
+			<secondaryColor>000000</secondaryColor>
+		</textlist>
+
+		<image name="bannerlogo" extra="true">
+			<path>./_inc/systems/${system.theme}/bannerlogo.png</path>
+			<origin>.5 .5</origin>
+			<pos>.5 .077</pos>
+			<size>0 .07</size>
+		</image>
+
+		<text name="md_genre">
+			<pos>0.531 0.505</pos>
+			<size>0.20 0.02</size>
+			<fontPath>./_inc/assets/fonts/Shaka_Pow.ttf</fontPath>
+			<fontSize>.025</fontSize>
+		</text>
+
+		<rating name="md_rating">
+         		<pos>0.775 0.50</pos>
+         		<size>0 0.038</size>
+		 	<unfilledPath>./_inc/assets/icons/star_empty.svg</unfilledPath>
+         		<filledPath>./_inc/assets/icons/star_filled.svg</filledPath>
+        	</rating>
+
+		<text name="md_description">
+			<fontPath>./_inc/assets/fonts/Shaka_Pow.ttf</fontPath>
+			<fontSize>.025</fontSize>
+			<size>0.429 0.345</size>
+			<pos>0.531 0.56</pos>
+		</text>
+
+	</view>
+
+<!-- Gamelist view - Everything But Media - Detailed and Video Views END//-->
+
+<!-- Gamelist view - Media - Detailed View//-->
+	<view name="detailed">
+		<image name="md_image">
+			<pos>0.75 0.31</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.4 0.34</maxSize>
+		</image>
+	</view>
+
+<!-- Gamelist view - Media - Detailed View END//-->
+
+<!-- Gamelist view - Media - Video View//-->
+
+	<view name="video">
+		
+		<video name="md_video">
+			<pos>0.87 0.22</pos>
+			<origin>0.87 0.22</origin>
+			<maxSize>0.35 0.32</maxSize>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+			<delay>2</delay>
+		</video>
+	</view>
+
+<!-- Gamelist view - Media - Video View END//-->
+
+<!-- Gamelist view - Basic View //-->
+	
+	<view name="basic">
+
+		<image name="menu_basic" extra="true">
+			<origin>.5 .5</origin>
+			<pos>.5 .5</pos>
+			<size>1 1</size>
+			<path>./_inc/assets/menu_basic.png</path>
+		</image>
+
+		<image name="bannerlogo" extra="true">
+			<path>./_inc/systems/${system.theme}/bannerlogo.png</path>
+			<origin>.5 .5</origin>
+			<pos>.5 .077</pos>
+			<size>0 .07</size>
+		</image>
+
+		<textlist name="gamelist">
+			<origin>.5 .5</origin>
+			<pos>.495 .5493</pos>
+			<size>.9475 .814</size>
+			<horizontalMargin>.015</horizontalMargin>
+			<fontPath>./_inc/assets/fonts/Shaka_Pow.ttf</fontPath>
+			<fontSize>.035</fontSize>
+			<selectorColor>33333399</selectorColor>
+			<selectedColor>eeeeee</selectedColor>
+			<primaryColor>000000</primaryColor>
+			<secondaryColor>000000</secondaryColor>
+		</textlist>
+
+	</view>
+
+
+<!-- Gamelist view - Basic views END //-->
+
+</theme>
