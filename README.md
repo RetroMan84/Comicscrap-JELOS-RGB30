@@ -20,7 +20,7 @@ If you want to make your own comic and logo, there are resources in the assets f
 
 ### **Acknowledgments**
 * The main bulk of the images used came from the original author of the theme - TMNTturtleguy. You can find the original repository [here](https://github.com/TMNTturtleguy/es-theme-ComicBook).
-* Additional logos were sourced from dale-personal's fork [here] (https://github.com/dale-personal/es-theme-ComicBook), lehcimcramtrebor's version of[here](https://github.com/lehcimcramtrebor/es-theme-comicscrap) and the retropie forum topic [here](https://retropie.org.uk/forum/topic/9211/new-comic-book-theme/841) and [here](https://sites.google.com/view/comicthemelogos/home).
+* Additional logos were sourced from dale-personal's fork [here] (https://github.com/dale-personal/es-theme-ComicBook) , lehcimcramtrebor's version [here](https://github.com/lehcimcramtrebor/es-theme-comicscrap) and the retropie forum topic [here](https://retropie.org.uk/forum/topic/9211/new-comic-book-theme/841) and [here](https://sites.google.com/view/comicthemelogos/home).
 
 
 ## **License**
