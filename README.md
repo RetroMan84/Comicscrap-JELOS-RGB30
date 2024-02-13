@@ -16,7 +16,7 @@ The three options are:
 * Video - Includes image, video, genre, rating and description
 
 ## Custom Comics and Logos
-If you want to make your own comic and logo, there are resources in the assets folder. There is a comic template as well as a resources and a guide to creating the comic logos for the system view.
+If you want to make your own comic and logo, there are resources in the assets folder. There is a comic template as well as resources and a guide to creating the comic logos for the system view.
 
 ### **Acknowledgments**
 * The main bulk of the images used came from the original author of the theme - TMNTturtleguy. You can find the original repository [here](https://github.com/TMNTturtleguy/es-theme-ComicBook).
