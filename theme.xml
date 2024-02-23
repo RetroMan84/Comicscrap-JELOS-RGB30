@@ -10,6 +10,7 @@
 			<origin>.5 .5</origin>
 			<pos>.5 .5</pos>
 			<size>1 1</size>
+			<default>./_inc/assets/defaultcomic.png</default>
 			<path>./_inc/systems/${system.theme}/comic.png</path>
 		</image>
 
@@ -34,6 +35,12 @@
 		<image name="logo">
 			<path>./_inc/systems/${system.theme}/system.png</path>
 		</image>
+		
+		<text name="logoText">
+			<fontsize>.10</fontsize>
+			<color>7d7d7d</color>
+			<fontPath>./_inc/assets/fonts/Shaka_Pow.ttf</fontPath>
+		</text>
 		
 	</view>
 
