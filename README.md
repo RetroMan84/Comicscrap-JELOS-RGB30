@@ -3,7 +3,9 @@ A port of the Comic Scrap theme for the version of EmulationStation used in [JEL
 Specifically the 1-1 aspect ratio of the RGB30.
 
 ## Preview
- ![system view](https://github.com/RetroMan84/Comicscrap-JELOS-RGB30/blob/main/_inc/assets/preview/systemview.png)
+| ![system view](https://github.com/RetroMan84/Comicscrap-JELOS-RGB30/blob/main/_inc/assets/preview/systemview.png) | ![detailed](https://github.com/RetroMan84/Comicscrap-JELOS-RGB30/blob/main/_inc/assets/preview/detailedview.png) | 
+| -- | -- |
+| ![basicview](https://github.com/RetroMan84/Comicscrap-JELOS-RGB30/blob/main/_inc/assets/preview/basicview.png) | |
 
 ## Theme Configuration
 
